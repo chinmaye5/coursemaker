@@ -1,36 +1,66 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Turn any YouTube video with chapters into an interactive learning experience with automatic progress tracking.
 
-## Getting Started
+🚀 Features
+Embedded YouTube Player - Watch videos directly in the app
 
-First, run the development server:
+Automatic Progress Tracking - Tracks your learning progress automatically
 
-```bash
+Chapter Navigation - Jump to specific sections with one click
+
+Udemy-like Interface - Clean, modern learning dashboard
+
+Progress Persistence - Saves your progress across sessions
+
+Mobile Responsive - Works perfectly on all devices
+
+🛠️ Tech Stack
+Frontend: Next.js 14, TypeScript, Tailwind CSS
+
+Backend: Next.js API Routes
+
+Database: MongoDB
+
+Deployment: Vercel
+
+🏃‍♂️ Quick Start
+Clone & Install
+
+bash
+git clone <your-repo>
+cd chapterflow
+npm install
+Environment Setup
+
+bash
+# Create .env.local
+MONGODB_URI=mongodb://localhost:27017/youtube_courses
+Run Development Server
+
+bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+🎯 How to Use
+Paste YouTube URL - Any video with chapters
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Load Course - Automatically extracts chapters
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Start Learning - Watch and track progress automatically
 
-## Learn More
+Track Progress - See completion percentage and chapter status
 
-To learn more about Next.js, take a look at the following resources:
+📦 Deployment
+Deploy instantly on Vercel:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+https://vercel.com/button
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+💡 Perfect For
+Online learners
 
-## Deploy on Vercel
+YouTube education content
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Course creators
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Students
+
+Self-paced learning
